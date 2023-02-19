@@ -1,1 +1,2 @@
 화면[[:space:]]기록[[:space:]]2023-02-14[[:space:]]13.21.08.zip filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
