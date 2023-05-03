@@ -1,0 +1,447 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  width: 300px;
+  height: 390px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.Line1 {
+  margin-top: 5px;
+  width: 300px;
+  height: 90px;
+  border-bottom: 1px solid white;
+}
+
+.red_btn {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: orangered;
+  cursor: pointer;
+}
+
+.red_btn:hover {
+  border: 1px solid white;
+}
+
+.yellow_btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: gold;
+  cursor: pointer;
+}
+
+.yellow_btn:hover {
+  border: 1px solid white;
+}
+
+.green_btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+.green_btn:hover {
+  border: 1px solid white;
+}
+
+.zero {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-top: 13px;
+  padding-right: 10px;
+}
+
+.Line2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 60px;
+}
+
+.two_btn1 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.two_btn1:hover {
+  background-color: #404040;
+}
+
+.two_btn2 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.two_btn2:hover {
+  background-color: #404040;
+}
+
+.two_btn3 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.two_btn3:hover {
+  background-color: #404040;
+}
+
+.two_btn4 {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.two_btn4:hover {
+  background-color: goldenrod;
+}
+
+.Line3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 60px;
+}
+
+.three_btn1 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.three_btn1:hover {
+  background-color: #404040;
+}
+
+.three_btn2 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.three_btn2:hover {
+  background-color: #404040;
+}
+
+.three_btn3 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.three_btn3:hover {
+  background-color: #404040;
+}
+
+.three_btn4 {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.three_btn4:hover {
+  background-color: goldenrod;
+}
+
+.Line4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 60px;
+}
+
+.four_btn1 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.four_btn1:hover {
+  background-color: #404040;
+}
+
+.four_btn2 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.four_btn2:hover {
+  background-color: #404040;
+}
+
+.four_btn3 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.four_btn3:hover {
+  background-color: #404040;
+}
+
+.four_btn4 {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.four_btn4:hover {
+  background-color: goldenrod;
+}
+
+.Line5 {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+}
+
+.five_btn1 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.five_btn1:hover {
+  background-color: #404040;
+}
+
+.five_btn2 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.five_btn2:hover {
+  background-color: #404040;
+}
+
+.five_btn3 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.five_btn3:hover {
+  background-color: #404040;
+}
+
+.five_btn4 {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.five_btn4:hover {
+  background-color: goldenrod;
+}
+
+.Line6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 60px;
+  border-bottom: 1px solid black;
+  border-radius: 10px;
+}
+
+.six_btn1 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 60pxs;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+}
+
+.six_btn1:hover {
+  background-color: #404040;
+}
+
+.six_btn2 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.six_btn2:hover {
+  background-color: #404040;
+}
+
+.six_btn3 {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+.six_btn3:hover {
+  background-color: goldenrod;
+}
